@@ -16,16 +16,16 @@ const Navbar = () => {
                     <div className="flex items-center">
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <NavLink to="/home" exact className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/home') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white'}`}>
+                                <NavLink to="/home" exact className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/home') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white shadow-xl'}`}>
                                     Blogs
                                 </NavLink>
                                 {/* <NavLink to="/about" className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/about') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white'}`}>
                                     About
                                 </NavLink> */}
-                                <NavLink to="/add-blog" className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/add-blog') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white'}`}>
+                                <NavLink to="/add" exact className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/add') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white shadow-xl'}`}>
                                     Add Blog
                                 </NavLink>
-                                <NavLink to="/profile" className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/contact') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white'}`}>
+                                <NavLink to="/profile" exact className={`text-black-300 px-3 py-2 rounded-md text-sm font-medium ${isActive('/profile') ? 'bg-blue-700 text-white' : 'hover:bg-blue-700 hover:text-white shadow-xl'}`}>
                                     Profile
                                 </NavLink>
                             </div>

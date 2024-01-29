@@ -37,9 +37,6 @@ const Content = () => {
           @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
         `}
       </style>
-      <Typography variant="h3" color="initial" align="center" style={{ marginTop: '40px', fontFamily: 'Libre Baskerville, serif' }}>
-        Blogs
-      </Typography>
       <Grid container spacing={3}>
         {blogs.map((blog) => (
           <Grid item xs={12} key={blog.title}>
@@ -49,7 +46,7 @@ const Content = () => {
                   {blog.title}
                 </Typography>
                 <Collapse in={selectedCard === blog}>
-                  <Typography variant="body1" color="initial">
+                  <Typography variant="body1" color="initial" marginTop={"10px"}>
                     {blog.text}
                   </Typography>
                 </Collapse>
