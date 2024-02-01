@@ -10,6 +10,7 @@ class User(models.Model):
         return self.username  # Corrected from self.name
 
 class blogs(models.Model):
+    id = models.AutoField(primary_key=True, editable=False)
     title = models.CharField(max_length=100)
     text = models.TextField()
 
