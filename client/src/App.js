@@ -9,7 +9,7 @@ import AddBlog from './pages/addbog.js';
 function App() {
   return (
     <Router>
-      <div className="App" class="h-screen bg-[#ffffff]">
+      <div className="h-screen bg-[#ffffff]">
         <Navbar />
         <Routes>
           <Route path="/home" element={<Content />}/>
