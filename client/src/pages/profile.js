@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
+import { Container, Grid, Card, CardContent, CardMedia, Typography} from '@mui/material';
 import './style.css';
 
 const Profile = () => {
@@ -21,21 +21,6 @@ const Profile = () => {
                 <Grid item xs={12} md={8}>
                   <Typography variant="h5" component="div">Danny McLoan</Typography>
                   <Typography variant="subtitle1" color="textSecondary">Senior Journalist</Typography>
-
-                  <Grid container spacing={2} sx={{ backgroundColor: '#efefef', borderRadius: '10px', p: 2, mt: 2 }}>
-                    <Grid item>
-                      <Typography variant="body2" color="textSecondary">Articles</Typography>
-                      <Typography variant="h6">41</Typography>
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="textSecondary">Followers</Typography>
-                      <Typography variant="h6">976</Typography>
-                    </Grid>
-                    <Grid item>
-                      <Typography variant="body2" color="textSecondary">Rating</Typography>
-                      <Typography variant="h6">8.5</Typography>
-                    </Grid>
-                  </Grid>
                 </Grid>
               </Grid>
             </CardContent>

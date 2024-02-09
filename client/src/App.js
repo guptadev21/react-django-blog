@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './navbar/blognav.js';
 import Content from './pages/content.js';
 import Profile from './pages/profile.js';
-import AddBlog from './pages/addbog.js';
+import AddBlog from './pages/addblog.js';
 
 function App() {
   return (
